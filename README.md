@@ -38,18 +38,34 @@ Serving on 192.168.130.1:20007 by http
 
 # RESULT
 print(requests.get('http://api.ipify.org?format=json' , proxies={'http' : 'http://192.168.130.1:20000'}).text)
+
 {"ip":"123.123.123.123"}
+
 print(requests.get('http://api.ipify.org?format=json' , proxies={'http' : 'http://192.168.130.1:20001'}).text)
+
 {"ip":"123.123.123.123"}
+
 print(requests.get('http://api.ipify.org?format=json' , proxies={'http' : 'http://192.168.130.1:20002'}).text)
+
 {"ip":"123.123.123.123"}
+
 print(requests.get('http://api.ipify.org?format=json' , proxies={'http' : 'http://192.168.130.1:20003'}).text)
+
 {"ip":"123.123.123.123"}
+
 print(requests.get('http://api.ipify.org?format=json' , proxies={'http' : 'http://192.168.130.1:20004'}).text)
+
 {"ip":"123.123.123.123"}
+
 print(requests.get('http://api.ipify.org?format=json' , proxies={'http' : 'http://192.168.130.1:20005'}).text)
+
 {"ip":"123.123.123.123"}
+
 print(requests.get('http://api.ipify.org?format=json' , proxies={'http' : 'http://192.168.130.1:20006'}).text)
+
 {"ip":"123.123.123.123"}
+
 print(requests.get('http://api.ipify.org?format=json' , proxies={'http' : 'http://192.168.130.1:20007'}).text)
+
 {"ip":"123.123.123.123"}
+
